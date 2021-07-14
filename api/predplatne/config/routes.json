@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/predplatnes",
+      "handler": "predplatne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/predplatnes/count",
+      "handler": "predplatne.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/predplatnes/:id",
+      "handler": "predplatne.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/predplatnes",
+      "handler": "predplatne.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/predplatnes/:id",
+      "handler": "predplatne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/predplatnes/:id",
+      "handler": "predplatne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

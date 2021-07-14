@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_tests",
+  "info": {
+    "name": "test",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
